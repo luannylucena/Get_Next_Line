@@ -3,7 +3,7 @@ GNL SUBJECT
 ___________
 
 Repeated calls (e.g., using loop) to your get_next_line() function should let you read the next 
-file file pointed to by the file descriptor, one line at a time. 
+file pointed to by the file descriptor, one line at a time. 
 // Chamadas repetidas (por exemplo, usando um loop) para sua função get_next_line() devem permitir
 // você lê o arquivo de texto apontado pelo descritor de arquivo, uma linha de cada vez.
 
@@ -20,7 +20,7 @@ the standard input.
 Please note that the returned line should include the terminating \n character, except if the 
 and of file was reached and does not end with a \n character.
 // Observe que a linha retornada deve incluir o caractere final \n, exceto se o final do arquivo 
-//f oi atingido e não termina com um caractere \n.
+//foi atingido e não termina com um caractere \n.
 
 Your header file get_next_line.h must at least contain the prototype of the get_next_line() function.
 // Seu arquivo de cabeçalho get_next_line.h deve conter pelo menos o protótipo do função get_next_line().
