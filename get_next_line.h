@@ -6,7 +6,7 @@
 /*   By: lmedeiro <lmedeiro@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/11 23:16:02 by lmedeiro          #+#    #+#             */
-/*   Updated: 2022/10/12 02:14:12 by lmedeiro         ###   ########.fr       */
+/*   Updated: 2022/10/13 21:18:00 by lmedeiro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,8 @@
 # define GET_NEXT_LINE_H // Se não existir, criamos. 
 
 #ifndef BUFFER_SIZE //comando para não precisar usar a flag do buffer_size no código
-# define BUFFER_SIZE 1
+# define BUFFER_SIZE 20 //sempre melhor começar com um número mais baixo, para conseguir fazer os testes
+//necesásrios. 
 #endif
 //abaixo, coloco as bibliotecas que usei
 #include <stdlib.h> // Biblioteca para usar as funções malloc e free.
