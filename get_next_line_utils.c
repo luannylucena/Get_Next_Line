@@ -3,14 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line_utils.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lmedeiro <lmedeiro@student.42.fr>          +#+  +:+       +#+        */
+/*   By: lmedeiro <lmedeiro@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/12 00:12:25 by lmedeiro          #+#    #+#             */
-/*   Updated: 2022/10/26 21:35:05 by lmedeiro         ###   ########.fr       */
+/*   Updated: 2022/10/27 23:36:22 by lmedeiro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-//aqui coloco as funções que eu usar da minha libft.
 
 #include "get_next_line.h"
 
