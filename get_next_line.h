@@ -3,24 +3,23 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line.h                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: lmedeiro <lmedeiro@student.42sp.org.br>    +#+  +:+       +#+        */
+/*   By: lmedeiro <lmedeiro@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/11 23:16:02 by lmedeiro          #+#    #+#             */
-/*   Updated: 2022/10/13 21:18:00 by lmedeiro         ###   ########.fr       */
+/*   Updated: 2022/10/26 21:46:00 by lmedeiro         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef GET_NEXT_LINE_H // Verifica se a biblioteca já existe.
-# define GET_NEXT_LINE_H // Se não existir, criamos. 
+#ifndef GET_NEXT_LINE_H
+# define GET_NEXT_LINE_H
 
-#ifndef BUFFER_SIZE //comando para não precisar usar a flag do buffer_size no código
-# define BUFFER_SIZE 20 //sempre melhor começar com um número mais baixo, para conseguir fazer os testes
-//necesásrios. 
+# include <fcntl.h>
+# include <unistd.h>
+# include <stdlib.h>
+
+size_t	ft_strlen(char *s);
+char	*ft_strjoin(char *s1, char *s2);
+char	*ft_strchr(char *s, int c);
+char	*get_next_line(int fd);
+
 #endif
-//abaixo, coloco as bibliotecas que usei
-#include <stdlib.h> // Biblioteca para usar as funções malloc e free.
-
-char	*get_next_line(int fd); //colocar os protótipos de funções que usei
-
-#endif // final
-
